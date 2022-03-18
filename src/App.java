@@ -94,9 +94,6 @@ public class App {
                     resp = input.next();
                     break;
                 default:
-                    System.out.println("Não entendi sua resposta, digite uma opção entre 1 e 13!"); 
-                    System.out.print("Digite novamente a opção desejada: ");
-                    escolha = input.nextInt();
                     break;
             }
         }while(resp.equals("sim") || resp.equals("s") || resp.equals("Sim") || resp.equals("S"));
