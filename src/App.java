@@ -109,6 +109,58 @@ public class App {
                     resp = input.next();
                     break;
                 case 5:
+                    System.out.println("[1] Binário para Decimal.");
+                    System.out.println("[2] Binário para Hexadecimal.");
+                    System.out.println("[3] Binário para Octal.");
+                    System.out.println("[4] Decimal para Binário.");
+                    System.out.println("[5] Decimal para Hexadecimal.");
+                    System.out.println("[6] Decimal para Octal.");
+                    System.out.println("[7] Hexadecimal para Decimal.");
+                    System.out.println("[8] Hexadecimal para Binário.");
+                    System.out.println("[9] Hexadecimal para Octal.");
+                    System.out.println("[10] Octal para Decimal.");
+                    System.out.println("[11] Octal para Binário.");
+                    System.out.println("[12] Octal para Hexadecimal.");
+
+                    System.out.print("Escolha uma opção desejada: ");
+                    int escolha_5 = input.nextInt();
+
+                    switch(escolha_5){
+
+                        case 1:
+                            break;
+                        case 2:
+                            break;
+                        case 3:
+                            break;
+                        case 4:
+                            break;
+                        case 5:
+                            break;
+                        case 6: 
+                            break;
+                        case 7:
+                            break;
+                        case 8:
+                            break;
+                        case 9:
+                            break;
+                        case 10:
+                            break;
+                        case 11:
+                            break;
+                        case 12:
+                            break;
+
+                    
+
+                        default:
+                            break;
+
+                    }
+
+
+
 
                     System.out.print("Deseja calcular novamente? ");
                     resp = input.next();
