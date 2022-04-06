@@ -177,6 +177,70 @@ public class App {
                     break;
                 case 8: 
 
+                    /*
+                                  
+                    Kilograma (kg)
+                    Hectograma (hg) x
+                    Decagrama (dag) x
+                    Grama (g)
+                    Decigrama (dg) x
+                    Centigrama (cg) x
+                    Miligrama (mg)
+                
+                    Tonelada (t) 
+                    Quilate 
+                    Arroba (@)
+
+                    */
+
+                    System.out.println("[1] Kilograma (kg) para Grama (g).");
+                    System.out.println("[2] Kilograma (kg) para Miligrama (mg).");
+                    System.out.println("[3] Kilograma (kg) para Tonelada (t).");
+                    System.out.println("[4] Kilograma (kg) para Quilate.");
+                    System.out.println("[5] Kilograma (kg) para Arroba (@).");
+                    System.out.println("[6] Grama (g) para Kilograma (kg).");
+                    System.out.println("[7] Grama (g) para Miligrama (mg).");
+                    System.out.println("[8] Grama (g) para Tonelada (t).");
+                    System.out.println("[9] Grama (g) para Quilate .");
+                    System.out.println("[10] Grama (g) para Arroba (@).");
+                    
+                    System.out.print("Escolha uma opção: ");
+                    int escolha_8 = input.nextInt();
+
+                    switch (escolha_8){
+
+                        case 1:
+                            break;
+                        case 2:
+                            break;
+                        case 3:
+                            break;
+                        case 4:
+                            break;
+                        case 5:
+                            break;
+                        case 6: 
+                            break;
+                        case 7:
+                            break;
+                        case 8:
+                            break;
+                        case 9:
+                            break;
+                        case 10:
+                            break;
+
+                        default:
+                        break;
+
+
+                    }
+
+                   
+
+
+                    
+
                     System.out.print("Deseja calcular novamente? ");
                     resp = input.next();
                     break;
